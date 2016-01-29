@@ -24,6 +24,9 @@
 		689C60A41A5F4D1B00E96D29 /* QSTodoDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 689C60A21A5F4D1B00E96D29 /* QSTodoDataModel.xcdatamodeld */; };
 		A31A89F51BF3FD8600C7B656 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31A89F41BF3FD8600C7B656 /* Launch Screen.storyboard */; };
 		A3BBD7791C05158D00DD0DB0 /* MicrosoftAzureMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BBD7781C05158D00DD0DB0 /* MicrosoftAzureMobile.framework */; };
+		AD0F85801C5B3477002FDA10 /* DriveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0F857F1C5B3477002FDA10 /* DriveCell.m */; };
+		AD0F85831C5B4015002FDA10 /* DriveDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0F85821C5B4015002FDA10 /* DriveDetailViewController.m */; };
+		AD0F85861C5B4060002FDA10 /* UtilitiesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0F85851C5B4060002FDA10 /* UtilitiesVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,12 @@
 		689C60A31A5F4D1B00E96D29 /* QSTodoDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QSTodoDataModel.xcdatamodel; sourceTree = "<group>"; };
 		A31A89F41BF3FD8600C7B656 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		A3BBD7781C05158D00DD0DB0 /* MicrosoftAzureMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MicrosoftAzureMobile.framework; sourceTree = "<group>"; };
+		AD0F857E1C5B3477002FDA10 /* DriveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriveCell.h; sourceTree = "<group>"; };
+		AD0F857F1C5B3477002FDA10 /* DriveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriveCell.m; sourceTree = "<group>"; };
+		AD0F85811C5B4015002FDA10 /* DriveDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriveDetailViewController.h; sourceTree = "<group>"; };
+		AD0F85821C5B4015002FDA10 /* DriveDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriveDetailViewController.m; sourceTree = "<group>"; };
+		AD0F85841C5B4060002FDA10 /* UtilitiesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilitiesVC.h; sourceTree = "<group>"; };
+		AD0F85851C5B4060002FDA10 /* UtilitiesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilitiesVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				03D1002D16EC579A0005A1A9 /* QSAppDelegate.m */,
 				03D1002416EC579A0005A1A9 /* Supporting Files */,
 				A31A89F41BF3FD8600C7B656 /* Launch Screen.storyboard */,
+				AD0F857E1C5B3477002FDA10 /* DriveCell.h */,
+				AD0F857F1C5B3477002FDA10 /* DriveCell.m */,
+				AD0F85811C5B4015002FDA10 /* DriveDetailViewController.h */,
+				AD0F85821C5B4015002FDA10 /* DriveDetailViewController.m */,
+				AD0F85841C5B4060002FDA10 /* UtilitiesVC.h */,
+				AD0F85851C5B4060002FDA10 /* UtilitiesVC.m */,
 			);
 			path = RDNotifyr;
 			sourceTree = "<group>";
@@ -198,9 +213,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0F85801C5B3477002FDA10 /* DriveCell.m in Sources */,
 				03D1002A16EC579A0005A1A9 /* main.m in Sources */,
 				03D1002E16EC579A0005A1A9 /* QSAppDelegate.m in Sources */,
 				03D1004716EC58300005A1A9 /* QSTodoListViewController.m in Sources */,
+				AD0F85831C5B4015002FDA10 /* DriveDetailViewController.m in Sources */,
+				AD0F85861C5B4060002FDA10 /* UtilitiesVC.m in Sources */,
 				03D1004A16EC58490005A1A9 /* QSTodoService.m in Sources */,
 				689C60A41A5F4D1B00E96D29 /* QSTodoDataModel.xcdatamodeld in Sources */,
 			);

@@ -59,6 +59,8 @@
         exit(-1);  // Fail
     }
     
+    self.title = @"Drives";
+    
     // load the data
     [self refresh];
 }
@@ -154,6 +156,10 @@
     // has been reused and was previously greyed out
     cell.textLabel.textColor = [UIColor blackColor];
     cell.textLabel.text = [item valueForKey:@"text"];
+    [cell.layer setCornerRadius:7.0f];
+    [cell.layer setBorderColor: [UIColor orangeColor].CGColor]; //] //]colorWithRed:255.0/255.0 green:153.0/255.0 blue:0.0/255.0 alpha:1.0];
+    [cell.layer setMasksToBounds:YES];
+    [cell.layer setBorderWidth:2.0f];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -168,7 +174,7 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 1;  // Always a single section
+    return 1;// Always a single section
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -285,6 +291,10 @@
     dispatch_async(dispatch_get_main_queue(), ^{
         [self.tableView endUpdates];
     });
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    
 }
 
 

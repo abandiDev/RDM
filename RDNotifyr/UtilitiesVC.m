@@ -1,0 +1,42 @@
+//
+//  UtilitiesVC.m
+//  RDNotifyr
+//
+//  Created by Abhilash Bandi on 29/01/16.
+//  Copyright © 2016 MobileServices. All rights reserved.
+//
+
+#import "UtilitiesVC.h"
+
+@interface UtilitiesVC ()
+
+@end
+
+@implementation UtilitiesVC
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
++(UIAlertController *)alertWithTitle:(NSString *)title withMessage:(NSString *)message{
+    UIAlertController * alertController = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:nil];
+    [alertController addAction:okAction];
+    return alertController;
+}
+@end
