@@ -110,21 +110,15 @@
 			isa = PBXGroup;
 			children = (
 				689C60A21A5F4D1B00E96D29 /* QSTodoDataModel.xcdatamodeld */,
-				03D1004816EC58490005A1A9 /* QSTodoService.h */,
-				03D1004916EC58490005A1A9 /* QSTodoService.m */,
-				03D1004516EC58300005A1A9 /* QSTodoListViewController.h */,
-				03D1004616EC58300005A1A9 /* QSTodoListViewController.m */,
+				AD0F858B1C5BA08E002FDA10 /* AzureServices */,
+				AD0F85881C5BA066002FDA10 /* ViewControllers */,
 				03D1004B16EC5A680005A1A9 /* MainStoryboard_iPhone.storyboard */,
 				03D1002C16EC579A0005A1A9 /* QSAppDelegate.h */,
 				03D1002D16EC579A0005A1A9 /* QSAppDelegate.m */,
 				03D1002416EC579A0005A1A9 /* Supporting Files */,
 				A31A89F41BF3FD8600C7B656 /* Launch Screen.storyboard */,
-				AD0F857E1C5B3477002FDA10 /* DriveCell.h */,
-				AD0F857F1C5B3477002FDA10 /* DriveCell.m */,
-				AD0F85811C5B4015002FDA10 /* DriveDetailViewController.h */,
-				AD0F85821C5B4015002FDA10 /* DriveDetailViewController.m */,
-				AD0F85841C5B4060002FDA10 /* UtilitiesVC.h */,
-				AD0F85851C5B4060002FDA10 /* UtilitiesVC.m */,
+				AD0F858A1C5BA085002FDA10 /* Views */,
+				AD0F85891C5BA077002FDA10 /* Utilities */,
 			);
 			path = RDNotifyr;
 			sourceTree = "<group>";
@@ -142,6 +136,44 @@
 				03D1002B16EC579A0005A1A9 /* RDNotifyr-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD0F85881C5BA066002FDA10 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				03D1004516EC58300005A1A9 /* QSTodoListViewController.h */,
+				03D1004616EC58300005A1A9 /* QSTodoListViewController.m */,
+				AD0F85811C5B4015002FDA10 /* DriveDetailViewController.h */,
+				AD0F85821C5B4015002FDA10 /* DriveDetailViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AD0F85891C5BA077002FDA10 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AD0F85841C5B4060002FDA10 /* UtilitiesVC.h */,
+				AD0F85851C5B4060002FDA10 /* UtilitiesVC.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		AD0F858A1C5BA085002FDA10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD0F857E1C5B3477002FDA10 /* DriveCell.h */,
+				AD0F857F1C5B3477002FDA10 /* DriveCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		AD0F858B1C5BA08E002FDA10 /* AzureServices */ = {
+			isa = PBXGroup;
+			children = (
+				03D1004816EC58490005A1A9 /* QSTodoService.h */,
+				03D1004916EC58490005A1A9 /* QSTodoService.m */,
+			);
+			name = AzureServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

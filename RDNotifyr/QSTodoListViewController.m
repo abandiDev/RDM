@@ -157,7 +157,7 @@
     cell.textLabel.textColor = [UIColor blackColor];
     cell.textLabel.text = [item valueForKey:@"text"];
     [cell.layer setCornerRadius:7.0f];
-    [cell.layer setBorderColor: [UIColor orangeColor].CGColor]; //] //]colorWithRed:255.0/255.0 green:153.0/255.0 blue:0.0/255.0 alpha:1.0];
+    [cell.layer setBorderColor: [UIColor colorWithRed:198.0/255.0 green:77.0/255.0 blue:24.0/255.0 alpha:1.0].CGColor]; //] //]colorWithRed:255.0/255.0 green:153.0/255.0 blue:0.0/255.0 alpha:1.0];
     [cell.layer setMasksToBounds:YES];
     [cell.layer setBorderWidth:2.0f];
 }

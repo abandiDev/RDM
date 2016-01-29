@@ -24,12 +24,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:255.0/255.0 green:153.0/255.0 blue:0.0/255.0 alpha:1.0]];
-    
-    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
-                                                           [UIColor darkGrayColor], NSForegroundColorAttributeName,
-                                                           [UIFont fontWithName:@"Helvetica-Light" size:20.0], NSFontAttributeName, nil]];
-    
+    [[UINavigationBar appearance]setTintColor:[UIColor colorWithRed:198.0/255.0 green:77.0/255.0 blue:24.0/255.0 alpha:1.0]];
+//    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:255.0/255.0 green:153.0/255.0 blue:0.0/255.0 alpha:1.0]];
+//    
+   [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
+                                                      [UIColor colorWithRed:198.0/255.0 green:77.0/255.0 blue:24.0/255.0 alpha:1.0], NSForegroundColorAttributeName,
+                                                          [UIFont fontWithName:@"Helvetica-Light" size:20.0], NSFontAttributeName, nil]];    
     return YES;
 }
 

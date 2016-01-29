@@ -51,7 +51,7 @@
                                     <segment title="Drive Info"/>
                                     <segment title="PanelInfo"/>
                                 </segments>
-                                <color key="tintColor" red="0.93333333333333335" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.77647058823529413" green="0.30196078431372547" blue="0.094117647058823528" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="segmentChanged:" destination="fTE-qe-eAo" eventType="valueChanged" id="Gbe-44-a40"/>
                                 </connections>
@@ -61,7 +61,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="105" id="xSA-lX-mJT"/>
                                 </constraints>
-                                <color key="tintColor" red="0.87450980389999999" green="0.56470588239999997" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.77647058820000003" green="0.30196078430000001" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Availalbe"/>
                                 <connections>
                                     <action selector="availableClicked:" destination="fTE-qe-eAo" eventType="touchUpInside" id="kVO-m6-4DJ"/>
@@ -72,7 +72,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="119" id="mg2-MP-686"/>
                                 </constraints>
-                                <color key="tintColor" red="0.87450980389999999" green="0.56470588239999997" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.77647058820000003" green="0.30196078430000001" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Not Available"/>
                                 <connections>
                                     <action selector="notAvailableClicked:" destination="fTE-qe-eAo" eventType="touchUpInside" id="u4M-S2-1Pj"/>
