@@ -15,6 +15,8 @@
 - (IBAction)availableClicked:(id)sender;
 - (IBAction)notAvailableClicked:(id)sender;
 @property (weak, nonatomic) IBOutlet UITableView *driveDetailTableView;
+@property (weak, nonatomic) IBOutlet UITableView *panelDetailTableView;
+- (IBAction)segmentChanged:(id)sender;
 
 
 @end
